@@ -12,4 +12,4 @@ Redesign Images by ourselves :
 
 Output Image :
 
-![Assignment1_65050810_65050877](https://github.com/Bobby9326/CG-Assigement-1/assets/95424584/12ee473c-98c9-4fa3-abd6-9f8c7f90e5bd)
+![Assignment1_65050810_65050877](https://github.com/Bobby9326/CG-Assigement-1/assets/95424584/7c036878-37ac-49d5-b68e-e94052ae52f2)
