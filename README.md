@@ -1,6 +1,7 @@
 ### CG-Assigement-1 ###
 This image in a theme of “NEW YEAR" is a part of 05506014 COMPUTER GRAPHICS
 Use Java 2D API only
+
 The components of an image are lines and curves.
 
 Inspirational Image:
