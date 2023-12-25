@@ -50,18 +50,18 @@ Dragon
 */
 
 
-// Dragon's Body Outline
+// // Dragon's Body Outline
         bezierCurve(g2,470+x, 210+y,470+x, 220+y,460+x, 240+y,450+x, 240+y,2); 
         bresenhamLine(g2, 450+x, 240+y, 340+x,240+y,2);
         bezierCurve(g2,340+x,240+y,260+x,250+y,260+x,360+y,330+x,370+y,2); 
-        bresenhamLine(g2, 360+x, 370+y, 470+x,370+y,2);
-        bezierCurve(g2,470+x,370+y,520+x,368+y,520+x,470+y,415+x,420+y,2); 
+        bresenhamLine(g2, 360+x, 370+y, 500+x,370+y,2);
+        bezierCurve(g2,500+x,370+y,550+x,368+y,550+x,470+y,415+x,420+y,2); 
         bezierCurve(g2,415+x,420+y,320+x,400+y,300+x,500+y,230+x,370+y,2); 
         bezierCurve(g2,230+x,370+y,250+x,470+y,300+x,470+y,350+x,450+y,2); 
         bezierCurve(g2,350+x,450+y,360+x,445+y,380+x,445+y,390+x,450+y,2); 
-        bezierCurve(g2,420+x,460+y,550+x,510+y,590+x,340+y,470+x,330+y,2);
-        bezierCurve(g2,420+x,460+y,460+x,460+y,480+x,470+y,525+x,440+y,2);
-        bresenhamLine(g2, 470+x,330+y, 340+x,330+y,2);
+        bezierCurve(g2,420+x,460+y,590+x,510+y,610+x,340+y,510+x,330+y,2);
+        bezierCurve(g2,420+x,460+y,460+x,460+y,480+x,470+y,542+x,450+y,2);
+        bresenhamLine(g2, 510+x,330+y, 340+x,330+y,2);
         bezierCurve(g2,340+x,330+y,310+x,330+y,310+x,280+y,340+x,280+y,2);  
         bresenhamLine(g2, 340+x,280+y, 450+x, 280+y,2);
         bezierCurve(g2,450+x, 280+y,510+x, 280+y,510+x, 210+y,510+x, 210+y,2); 
@@ -109,7 +109,7 @@ Dragon
 
 // Dragon's Left Leg Outline
         bresenhamLine(g2, 455+x,468+y, 485+x,490+y,2);
-        bresenhamLine(g2, 480+x,468+y, 500+x,485+y,2);
+        bresenhamLine(g2, 480+x,469+y, 500+x,485+y,2);
 
         bresenhamLine(g2, 485+x,490+y, 475+x,501+y,2); //finger1
         bresenhamLine(g2, 475+x,500+y, 485+x,505+y,2);
@@ -229,13 +229,13 @@ Dragon
         bresenhamLine(g2, 260+x, 218+y, 281+x, 225+y,2);
 
 //Detail of Dragon's Stomach
-        bresenhamLine(g2, 360+x, 357+y, 460+x,357+y,2);
-        bezierCurve(g2,460+x,357+y,470+x,357+y,490+x,370+y,495+x,380+y,2); 
+        bresenhamLine(g2, 360+x, 357+y, 490+x,357+y,2);
+        bezierCurve(g2,490+x,357+y,500+x,357+y,520+x,370+y,525+x,380+y,2); 
         bezierCurve(g2,325+x,357+y,280+x,343+y,280+x,265+y,330+x,255+y,2); 
         bresenhamLine(g2, 330+x,255+y, 430+x,255+y,2);
         bezierCurve(g2,430+x,255+y,460+x,260+y,485+x,245+y,490+x, 210+y,2);
         
-        for (int i = 0; i < 120; i+=30) {
+        for (int i = 0; i < 140; i+=35) {
             bresenhamLine(g2, 365+x+i, 357+y, 378+x+i,372+y,2);
         }
 
@@ -263,15 +263,15 @@ Dragon
         bresenhamLine(g2, 434+x,400+y, 465+x,418+y,2);
         bresenhamLine(g2, 465+x,418+y, 475+x,435+y,2);
 
-        for (int i = 0; i < 150; i+=30) {
+        for (int i = 0; i < 180; i+=30) {
             bezierCurve(g2,340+x+i, 328+y,345+x+i, 320+y,350+x+i,315+y,370+x+i,310+y,2); 
             bezierCurve(g2,370+x+i,310+y,365+x+i,310+y,360+x+i,328+y,360+x+i,329+y,2); 
         }
 
-        bezierCurve(g2,490+x, 332+y,495+x, 328+y,500+x,318+y,525+x,325+y,2); 
-        bezierCurve(g2,525+x,325+y,515+x,328+y,512+x,335+y,510+x,341+y,2);
-        bezierCurve(g2,515+x,345+y,530+x,340+y,548+x,350+y,555+x,355+y,2);
-        bezierCurve(g2,533+x,365+y,537+x,355+y,554+x,357+y,555+x,355+y,2);
+        bezierCurve(g2,518+x, 331+y,525+x, 325+y,540+x,320+y,555+x,325+y,2); 
+        bezierCurve(g2,555+x,325+y,550+x,328+y,542+x,335+y,540+x,341+y,2);
+        bezierCurve(g2,545+x,343+y,560+x,335+y,578+x,345+y,585+x,355+y,2);
+        bezierCurve(g2,563+x,365+y,567+x,355+y,584+x,357+y,585+x,355+y,2);
         bezierCurve(g2,330+x, 328+y,340+x, 330+y,333+x, 300+y,325+x, 300+y,2);
         bresenhamLine(g2, 325+x, 300+y, 340+x, 310+y,2);
         bezierCurve(g2,340+x, 310+y,345+x, 300+y,338+x, 290+y,338+x, 290+y,2);
@@ -358,12 +358,12 @@ Dragon
         bresenhamLine(g2,444+x, 185+y,445+x, 195+y,2); 
         bresenhamLine(g2,435+x, 185+y,445+x, 195+y,2); 
         int[] p_x = {490,498,485,493,496,482,490,485,477,315,323,311,319,327,315,
-                     323,492,500,488,504,492,500,519,523,515,507,519,515,507,531,
-                     511,519,527,515,507,531,490,498,486,494,502,490,498,389,397,
+                     323,522,530,518,534,522,530,549,553,545,537,549,545,537,561,
+                     541,549,557,545,537,561,502,510,498,506,514,502,510,389,397,
                      385,393,401,389,397};
         int[] p_y = {230,230,237,237,243,250,250,259,265,332,332,339,339,339,346,
                      346,345,345,352,352,359,359,359,366,366,366,373,380,380,380,
-                     387,387,387,394,394,394,433,433,440,440,440,447,447,458,458,
+                     387,387,387,394,394,394,436,436,443,443,443,450,450,458,458,
                      465,465,465,472,472};
         g2.setColor(new Color(255, 175, 14));           
         for (int i = 0; i < p_x.length; i++) {
@@ -389,6 +389,8 @@ Dragon
         bresenhamLine(g2,460+x, 155+y,470+x, 140+y,2); 
         bresenhamLine(g2,470+x, 140+y,470+x, 148+y,2); 
         bezierCurve(g2,470+x, 148+y,480+x, 148+y,485+x, 155+y, 485+x, 155+y,2);
+        bezierCurve(g2,350+x, 145+y,350+x, 135+y,358+x, 135+y, 368+x, 145+y,2);
+        bresenhamLine(g2,350+x, 145+y,368+x, 145+y,2); 
         g2.setColor(Color.BLACK);
         
 
@@ -547,7 +549,7 @@ Frame
 *
 * Fill Color
 * 
- */ 
+//  */ 
         floodFill(buffer, 0, 0, Color.white, new Color(122,0,17)); //fill Background
         floodFill(buffer, 20, 20, Color.white, new Color(122,0,17));
         floodFill(buffer, 570, 20, Color.white, new Color(122,0,17));
@@ -559,14 +561,14 @@ Frame
         floodFill(buffer, 395, 128, Color.white, new Color(122,0,17));
 
         floodFill(buffer, 330, 400, Color.white, new Color(231,58,51)); //fill Color R:231  G:58  B:51
-        floodFill(buffer, 330, 100, Color.white, new Color(231,58,51));
+        floodFill(buffer, 350, 100, Color.white, new Color(231,58,51));
         floodFill(buffer, 260, 150, Color.white, new Color(231,58,51));
         floodFill(buffer, 465, 450, Color.white, new Color(231,58,51));
 
 
-        floodFill(buffer, 465, 420, Color.white, new Color(255, 175, 14));//fill Color R:255  G:175  B:14
-        floodFill(buffer, 440, 320, Color.white, new Color(255, 175, 14));
-        floodFill(buffer, 410, 320, Color.white, new Color(255, 175, 14));
+        floodFill(buffer, 465, 425, Color.white, new Color(255, 175, 14));//fill Color R:255  G:175  B:14
+        floodFill(buffer, 460, 320, Color.white, new Color(255, 175, 14));
+        floodFill(buffer, 420, 320, Color.white, new Color(255, 175, 14));
         floodFill(buffer, 400, 320, Color.white, new Color(255, 175, 14));
         floodFill(buffer, 360, 320, Color.white, new Color(255, 175, 14));
         floodFill(buffer, 340, 320, Color.white, new Color(255, 175, 14));
@@ -604,12 +606,13 @@ Frame
         floodFill(buffer, 385, 280, Color.white, new Color(194, 105, 1));
         floodFill(buffer, 415, 280, Color.white, new Color(194, 105, 1));
         floodFill(buffer, 445, 280, Color.white, new Color(194, 105, 1));
-        floodFill(buffer, 480, 290, Color.white, new Color(194, 105, 1));
-        floodFill(buffer, 510, 310, Color.white, new Color(194, 105, 1));
+        floodFill(buffer, 480, 280, Color.white, new Color(194, 105, 1));
+        floodFill(buffer, 510, 290, Color.white, new Color(194, 105, 1));
+        floodFill(buffer, 540, 310, Color.white, new Color(194, 105, 1));
         floodFill(buffer, 415, 380, Color.white, new Color(194, 105, 1));
-        floodFill(buffer, 200, 320, Color.white, new Color(194, 105, 1));
         floodFill(buffer, 415, 140, Color.white, new Color(194, 105, 1));
         floodFill(buffer, 400, 90, Color.white, new Color(194, 105, 1));
+
 
 
         floodFill(buffer, 390, 115, Color.white, new Color(224, 204, 99));//fill Color R:224  G:204  B:99
@@ -617,6 +620,7 @@ Frame
         floodFill(buffer, 400, 85, Color.white, new Color(224, 204, 99));
 
         floodFill(buffer, 441, 110, Color.white, new Color(187, 37, 48));//fill Color R:187  G:37  B:48
+        floodFill(buffer, 330, 100, Color.white, new Color(187, 37, 48));
         
 
 /*
