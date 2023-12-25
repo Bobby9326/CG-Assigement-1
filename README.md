@@ -12,4 +12,4 @@ Redesign Images by ourselves :
 
 Output Image :
 
-![โครงการใหม่](https://github.com/Bobby9326/CG-Assigement-1/assets/95424584/9653055c-749d-4ad6-a1d0-f2f546f98927)
+![โครงการใหม่ (1)](https://github.com/Bobby9326/CG-Assigement-1/assets/95424584/78cc1e86-079e-4862-8505-3521bc4784c3)
